@@ -2,6 +2,12 @@ html {
     background-color: #212121;
 }
 
+@media (max-width: 1500px) {
+  body {
+    width: 100%
+  }
+}
+
 .Bg {
   width: 1200px;
   height: 1100px;
@@ -156,5 +162,4 @@ background-position: 0 0;
 
 
 }
-
 
