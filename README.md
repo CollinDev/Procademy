@@ -1,5 +1,5 @@
 # Procademy
---IMPORTANT: TO DOWNLOAD THE FILE PLEASE DONWLOAD THE ZIP & UNZIP THE FILE--
+--IMPORTANT: TO DOWNLOAD THE FILE PLEASE DOWNLOAD THE ZIP BY CLICKING *CODE* & UNZIP THE FILE--
 
 A website for Procademy, if you randomly stumble upon this it's a website I'm currently making. Only official changes will be put on this website, no "beta" changes or any bullcrap.
 
