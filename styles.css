@@ -47,6 +47,22 @@
     border-radius: 10px;
   }
   
+@media (min-width: 400px ) {
+  .glowing-card, .glowing-box {
+    min-width: auto;
+  }
+ .bg {
+  min-width: 400px;
+ }
+
+}
+
+@media (min-width: 400px) {
+  html {
+    font-size: 30%;
+  }
+}
+
   .glowing-card {
       width: 1000px;
       height: 200px;
