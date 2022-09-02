@@ -46,22 +46,6 @@
     transition: opacity 0.3s ease-in-out;
     border-radius: 10px;
   }
-  
-@media (min-width: 400px ) {
-  .glowing-card, .glowing-box {
-    min-width: auto;
-  }
- .bg {
-  min-width: 400px;
- }
-
-}
-
-@media (min-width: 400px) {
-  html {
-    font-size: 30%;
-  }
-}
 
   .glowing-card {
       width: 1000px;
@@ -305,8 +289,37 @@ background-position: 0 0;
   100% {
     background-position: 2000 0;
   }
+}
 
 
+@media (min-width: 600px) {
+  p {
+    font-size: 1.25rem;
+  }
+}
+
+
+@media (min-width: 800px) {
+  p {
+  font-size: 1.5rem;
+  line-height:  1.5;
+  }
+}
+
+
+
+@media (max-width: 1300) {
+  p {
+    font-size: 1.25rem;
+  }
+}
+
+
+@media (max-width: 1300) {
+  p {
+  font-size: 1.5rem;
+  line-height:  1.5;
+  }
 }
 
 
