@@ -268,7 +268,7 @@
     left: 0;
   }
 
-}
+
 
 
   @keyframes glowing-box {
@@ -290,6 +290,8 @@ background-position: 0 0;
     background-position: 2000 0;
   }
 
+
+}
 
 }
 
