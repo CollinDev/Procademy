@@ -1,9 +1,46 @@
 
-  /* FRAME */
+  /* BASICS */
+
+html {
+  background-color: #212121;
+}
+
+
+header {
+  background-color: #212121;
+  font-family: 'Oswald', sans-serif;
+  height: 75px;
+}
+
+.highlight {
+  color: white;
+}
+
+header ul {
+  margin-right: 100px;
+  text-align: center;
+}
+
+header li {
+   margin: 10px auto;
+  font-size: 35px;
+  text-indent: 50px;
+  display: inline-block;
+  text-indent: 90px;
+}
+
+header li:hover {
+  font-size: 36px;
+}
+
+header a {
+  color: black;
+  text-decoration: none;
+}
 
 .Frame {
   width: 1200px;
-  height: 1100px;
+  height: 1087px;
   background: #131414;
   margin-left: 650px;
   margin-top: 200px;
@@ -15,7 +52,7 @@
   
 }
 
-/* ^^^ FRAME ^^^ */
+/* ^^^ BASICS ^^^ */
 
 /* BACKGROUND */
 
@@ -28,7 +65,6 @@
     background: linear-gradient(to bottom, #1090f8, #0054ca);
     height: 100vh;
     z-index: -5;
-    
   }
 
   .box ul li {
@@ -86,6 +122,110 @@
   }
 
     /* ^^^ BACKGROUND ^^^ */
+
+
+    /* LOGIN/REGISTER */
+
+    .account {
+      margin-left: 2200px;
+      margin-top: 10px;
+      position: absolute;
+    }
+
+.login {
+  align-items: center;
+  appearance: none;
+  background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 60px;
+  width: 100px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 30px;
+  margin-left: 10px;
+}
+
+.login:focus {
+  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.login:hover {
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.login:active {
+  box-shadow: #3c4fe0 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+.register {
+  align-items: center;
+  appearance: none;
+  background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 60px;
+  width: 150px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 30px;
+}
+
+.register:focus {
+  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.register:hover {
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.register:active {
+  box-shadow: #3c4fe0 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+/* ^^^ LOGIN/REGISTER ^^^ */
 
 
 /* GLOWING CARD */
@@ -226,12 +366,12 @@
     border-radius: 10px;
 
     content: "";
-    background: linear-gradient(
-      45deg,
-      rgba(56,145,224,1) 19%,
-       rgba(84,154,226,1)45%,
-        rgb(51, 95, 183) 91%
-    );
+      background: linear-gradient(
+        45deg,
+        rgba(56,145,224,1) 19%,
+         rgba(84,154,226,1)45%,
+          rgb(51, 95, 183) 91%
+      );
     z-index: 6;
   }
 
@@ -277,6 +417,39 @@
   }
 
   /* ^^^ GLOWING BOX 2 ^^^ */
+
+
+  /* FOOTER */
+
+footer {
+  background-color: #212121;
+  height: 75px;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  padding-bottom: 100px;
+}
+
+footer img {
+  width: 400px;
+  height: 400px;
+}
+
+footer ul {
+  margin-right: 100px;
+}
+
+footer li {
+   margin: 10px auto;
+  font-size: 30px;
+  text-indent: 50px;
+  display: inline-block;
+  text-indent: 25px;
+}
+
+footer li:hover {
+  font-size: 35px;
+}
 
 
   /* keyframes */
@@ -329,7 +502,7 @@ background-position: 0 0;
       }
 }
 
-/* media */
+/* responsive media */
 
 
 @media (min-width: 600px) {
